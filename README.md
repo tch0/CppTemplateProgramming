@@ -4,3 +4,8 @@
 
 目录：
 - [第一章：函数模板](1FunctionTemplate)
+- [第二章：类模板](2ClassTemplate)
+
+TODO：
+- 附录C：重载决议细节。
+- 附录E：concepts。
