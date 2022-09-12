@@ -5,6 +5,7 @@
 目录：
 - [第一章：函数模板](1FunctionTemplate)
 - [第二章：类模板](2ClassTemplate)
+- [第三章：非类型模板参数](3NonTypeTemplateParameters)
 
 TODO：
 - 附录C：重载决议细节。
