@@ -1,3 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [第五章：模板基础技术](#%E7%AC%AC%E4%BA%94%E7%AB%A0%E6%A8%A1%E6%9D%BF%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF)
+  - [typename关键字](#typename%E5%85%B3%E9%94%AE%E5%AD%97)
+  - [零初始化](#%E9%9B%B6%E5%88%9D%E5%A7%8B%E5%8C%96)
+  - [使用this->](#%E4%BD%BF%E7%94%A8this-)
+  - [为内建数组和字符串字面值重载或特化](#%E4%B8%BA%E5%86%85%E5%BB%BA%E6%95%B0%E7%BB%84%E5%92%8C%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%97%E9%9D%A2%E5%80%BC%E9%87%8D%E8%BD%BD%E6%88%96%E7%89%B9%E5%8C%96)
+  - [成员模板](#%E6%88%90%E5%91%98%E6%A8%A1%E6%9D%BF)
+  - [变量模板](#%E5%8F%98%E9%87%8F%E6%A8%A1%E6%9D%BF)
+  - [模板模板参数](#%E6%A8%A1%E6%9D%BF%E6%A8%A1%E6%9D%BF%E5%8F%82%E6%95%B0)
+  - [总结](#%E6%80%BB%E7%BB%93)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 第五章：模板基础技术
 
 本章讨论一些模板实践相关的基础技术。
