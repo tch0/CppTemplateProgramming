@@ -7,6 +7,7 @@
 - [第二章：类模板](02ClassTemplate)
 - [第三章：非类型模板参数](03NonTypeTemplateParameters)
 - [第四章：可变参数模板](04VariadicTemplates)
+- [第五章：模板基础技术](05TrickyBasics)
 
 TODO：
 - 附录C：重载决议细节。
