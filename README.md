@@ -10,6 +10,7 @@
 - [第五章：模板基础技术](05TrickyBasics)
 - [第六章：移动语义与enable_if<>](06MoveSemanticsAndEnableIf)
 - [第七章：值传递还是引用传递？](07ByValueOrByReference)
+- [第八章：编译期编程](08CompileTimeProgramming)
 
 TODO：
 - 附录C：重载决议细节。
