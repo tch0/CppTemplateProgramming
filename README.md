@@ -12,8 +12,10 @@
 - [第七章：值传递还是引用传递？](07ByValueOrByReference)
 - [第八章：编译期编程](08CompileTimeProgramming)
 - [第九章：在实战中使用模板](09UsingTemplatesInPractice)
+- [第十章：基本模板术语](10BasicTemplateTerminology)
 
 TODO：
+- 附录A：一个定义原则。
 - 附录C：重载决议细节。
 - 附录E：concepts。
 
@@ -88,3 +90,10 @@ TODO：
   - [破译大篇幅错误信息](09UsingTemplatesInPractice#%E7%A0%B4%E8%AF%91%E5%A4%A7%E7%AF%87%E5%B9%85%E9%94%99%E8%AF%AF%E4%BF%A1%E6%81%AF)
   - [本章后记](09UsingTemplatesInPractice#%E6%9C%AC%E7%AB%A0%E5%90%8E%E8%AE%B0)
   - [总结](09UsingTemplatesInPractice#%E6%80%BB%E7%BB%93)
+- [第十章：基本模板术语](10BasicTemplateTerminology#%E7%AC%AC%E5%8D%81%E7%AB%A0%E5%9F%BA%E6%9C%AC%E6%A8%A1%E6%9D%BF%E6%9C%AF%E8%AF%AD)
+  - [类模板还是模板类？](10BasicTemplateTerminology#%E7%B1%BB%E6%A8%A1%E6%9D%BF%E8%BF%98%E6%98%AF%E6%A8%A1%E6%9D%BF%E7%B1%BB)
+  - [替换、实例化、特化](10BasicTemplateTerminology#%E6%9B%BF%E6%8D%A2%E5%AE%9E%E4%BE%8B%E5%8C%96%E7%89%B9%E5%8C%96)
+  - [声明与定义](10BasicTemplateTerminology#%E5%A3%B0%E6%98%8E%E4%B8%8E%E5%AE%9A%E4%B9%89)
+  - [一个定义原则（One Definition Rule）](10BasicTemplateTerminology#%E4%B8%80%E4%B8%AA%E5%AE%9A%E4%B9%89%E5%8E%9F%E5%88%99one-definition-rule)
+  - [模板实参与模板形参](10BasicTemplateTerminology#%E6%A8%A1%E6%9D%BF%E5%AE%9E%E5%8F%82%E4%B8%8E%E6%A8%A1%E6%9D%BF%E5%BD%A2%E5%8F%82)
+  - [总结](10BasicTemplateTerminology#%E6%80%BB%E7%BB%93)
