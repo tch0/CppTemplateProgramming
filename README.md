@@ -11,6 +11,7 @@
 - [第六章：移动语义与enable_if<>](06MoveSemanticsAndEnableIf)
 - [第七章：值传递还是引用传递？](07ByValueOrByReference)
 - [第八章：编译期编程](08CompileTimeProgramming)
+- [第九章：在实战中使用模板](09UsingTemplatesInPractice)
 
 TODO：
 - 附录C：重载决议细节。
@@ -80,3 +81,10 @@ TODO：
   - [SFINAE/替换失败不是错误](08CompileTimeProgramming#sfinae%E6%9B%BF%E6%8D%A2%E5%A4%B1%E8%B4%A5%E4%B8%8D%E6%98%AF%E9%94%99%E8%AF%AF)
   - [编译期if](08CompileTimeProgramming#%E7%BC%96%E8%AF%91%E6%9C%9Fif)
   - [总结](08CompileTimeProgramming#%E6%80%BB%E7%BB%93)
+- [第九章：在实战中使用模板](09UsingTemplatesInPractice#%E7%AC%AC%E4%B9%9D%E7%AB%A0%E5%9C%A8%E5%AE%9E%E6%88%98%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%A8%A1%E6%9D%BF)
+  - [包含模型](09UsingTemplatesInPractice#%E5%8C%85%E5%90%AB%E6%A8%A1%E5%9E%8B)
+  - [模板和inline](09UsingTemplatesInPractice#%E6%A8%A1%E6%9D%BF%E5%92%8Cinline)
+  - [预编译头文件](09UsingTemplatesInPractice#%E9%A2%84%E7%BC%96%E8%AF%91%E5%A4%B4%E6%96%87%E4%BB%B6)
+  - [破译大篇幅错误信息](09UsingTemplatesInPractice#%E7%A0%B4%E8%AF%91%E5%A4%A7%E7%AF%87%E5%B9%85%E9%94%99%E8%AF%AF%E4%BF%A1%E6%81%AF)
+  - [本章后记](09UsingTemplatesInPractice#%E6%9C%AC%E7%AB%A0%E5%90%8E%E8%AE%B0)
+  - [总结](09UsingTemplatesInPractice#%E6%80%BB%E7%BB%93)
