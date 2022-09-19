@@ -13,6 +13,7 @@
 - [第八章：编译期编程](08CompileTimeProgramming)
 - [第九章：在实战中使用模板](09UsingTemplatesInPractice)
 - [第十章：基本模板术语](10BasicTemplateTerminology)
+- [第十一章：泛型库](11GenericLibraries)
 
 TODO：
 - 附录A：一个定义原则。
@@ -97,3 +98,11 @@ TODO：
   - [一个定义原则（One Definition Rule）](10BasicTemplateTerminology#%E4%B8%80%E4%B8%AA%E5%AE%9A%E4%B9%89%E5%8E%9F%E5%88%99one-definition-rule)
   - [模板实参与模板形参](10BasicTemplateTerminology#%E6%A8%A1%E6%9D%BF%E5%AE%9E%E5%8F%82%E4%B8%8E%E6%A8%A1%E6%9D%BF%E5%BD%A2%E5%8F%82)
   - [总结](10BasicTemplateTerminology#%E6%80%BB%E7%BB%93)
+- [第十一章：泛型库](11GenericLibraries#%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0%E6%B3%9B%E5%9E%8B%E5%BA%93)
+  - [可调用对象](11GenericLibraries#%E5%8F%AF%E8%B0%83%E7%94%A8%E5%AF%B9%E8%B1%A1)
+  - [实现泛型库的其他实用组件](11GenericLibraries#%E5%AE%9E%E7%8E%B0%E6%B3%9B%E5%9E%8B%E5%BA%93%E7%9A%84%E5%85%B6%E4%BB%96%E5%AE%9E%E7%94%A8%E7%BB%84%E4%BB%B6)
+  - [完美转发临时对象](11GenericLibraries#%E5%AE%8C%E7%BE%8E%E8%BD%AC%E5%8F%91%E4%B8%B4%E6%97%B6%E5%AF%B9%E8%B1%A1)
+  - [引用作为模板参数](11GenericLibraries#%E5%BC%95%E7%94%A8%E4%BD%9C%E4%B8%BA%E6%A8%A1%E6%9D%BF%E5%8F%82%E6%95%B0)
+  - [延迟求值](11GenericLibraries#%E5%BB%B6%E8%BF%9F%E6%B1%82%E5%80%BC)
+  - [编写泛型库时需要考虑的问题](11GenericLibraries#%E7%BC%96%E5%86%99%E6%B3%9B%E5%9E%8B%E5%BA%93%E6%97%B6%E9%9C%80%E8%A6%81%E8%80%83%E8%99%91%E7%9A%84%E9%97%AE%E9%A2%98)
+  - [总结](11GenericLibraries#%E6%80%BB%E7%BB%93)
