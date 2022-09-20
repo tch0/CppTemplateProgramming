@@ -1,8 +1,8 @@
 # C++模板编程学习
 
-参考书籍：[C++ Templates 2nd Edition](https://book.douban.com/subject/30226708/).
+参考书籍：[C++ Templates 2nd Edition](https://book.douban.com/subject/30226708/)
 
-章节目录：
+第一部分：基本概念
 - [第一章：函数模板](01FunctionTemplate)
 - [第二章：类模板](02ClassTemplate)
 - [第三章：非类型模板参数](03NonTypeTemplateParameters)
@@ -15,9 +15,14 @@
 - [第十章：基本模板术语](10BasicTemplateTerminology)
 - [第十一章：泛型库](11GenericLibraries)
 
-TODO：
+第二部分：深入模板
+- [第十二章：深入模板基础](12TemplatesInDepth)
+
+附录：
 - 附录A：一个定义原则。
+- 附录B：值类别，略。
 - 附录C：重载决议细节。
+- 附录D：标准类型实用程序。
 - 附录E：concepts。
 
 细节目录：
@@ -106,3 +111,10 @@ TODO：
   - [延迟求值](11GenericLibraries#%E5%BB%B6%E8%BF%9F%E6%B1%82%E5%80%BC)
   - [编写泛型库时需要考虑的问题](11GenericLibraries#%E7%BC%96%E5%86%99%E6%B3%9B%E5%9E%8B%E5%BA%93%E6%97%B6%E9%9C%80%E8%A6%81%E8%80%83%E8%99%91%E7%9A%84%E9%97%AE%E9%A2%98)
   - [总结](11GenericLibraries#%E6%80%BB%E7%BB%93)
+- [第十二章：深入模板基础](12TemplatesInDepth#%E7%AC%AC%E5%8D%81%E4%BA%8C%E7%AB%A0%E6%B7%B1%E5%85%A5%E6%A8%A1%E6%9D%BF%E5%9F%BA%E7%A1%80)
+  - [参数化声明](12TemplatesInDepth#%E5%8F%82%E6%95%B0%E5%8C%96%E5%A3%B0%E6%98%8E)
+  - [模板形参](12TemplatesInDepth#%E6%A8%A1%E6%9D%BF%E5%BD%A2%E5%8F%82)
+  - [模板实参](12TemplatesInDepth#%E6%A8%A1%E6%9D%BF%E5%AE%9E%E5%8F%82)
+  - [可变参数模板](12TemplatesInDepth#%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E6%A8%A1%E6%9D%BF)
+  - [友元](12TemplatesInDepth#%E5%8F%8B%E5%85%83)
+  - [后记](12TemplatesInDepth#%E5%90%8E%E8%AE%B0)
