@@ -16,13 +16,29 @@ public:
 };
 
 template<typename... Args>
-void print(Args... args)
+void print1(Args... args)
 {
     (std::cout << ... << AddSpace(args)) << std::endl; // (init op ... op pack)
 }
 
+// a better and more flexible way to add space by using fold expression with operator &&
+template<typename T>
+bool printSpace(std::ostream& os, const T& t)
+{
+    os << t << " ";
+    return true;
+}
+
+template<typename... Args>
+void print2(Args... args)
+{
+    (... && printSpace(std::cout, args));
+    std::cout << std::endl;
+}
+
 int main(int argc, char const *argv[])
 {
-    print(1, 2, "hello", 3.0);
+    print1(1, 2, "hello", 3.01);
+    print2(1, 2, "hello", 3.01);
     return 0;
 }
