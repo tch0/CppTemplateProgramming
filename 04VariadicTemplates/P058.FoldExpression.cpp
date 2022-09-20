@@ -22,16 +22,13 @@ void print1(Args... args)
 }
 
 // a better and more flexible way to add space by using fold expression with operator &&
-template<typename T>
-bool printSpace(std::ostream& os, const T& t)
-{
-    os << t << " ";
-    return true;
-}
-
 template<typename... Args>
 void print2(Args... args)
 {
+    auto printSpace = [](std::ostream& os, const auto& val) -> bool {
+        os << val << " ";
+        return true;
+    };
     (... && printSpace(std::cout, args));
     std::cout << std::endl;
 }

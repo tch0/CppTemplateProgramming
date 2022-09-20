@@ -97,6 +97,19 @@ void print(Args... args)
 }
 ```
 - 其中`AddSpace(args)`使用了类模板参数推导，等价于`AddSpace<Args>(args)`。
+- 当然这看起来有点太麻烦了，一个更灵活的实现方式是：利用`&&`运算符顺序求值的特性：
+```C++
+template<typename... Args>
+void print(Args... args)
+{
+    auto printSpace = [](std::ostream& os, const auto& val) -> bool {
+        os << val << " ";
+        return true;
+    };
+    (... && printSpace(std::cout, args));
+    std::cout << std::endl;
+}
+```
 
 注意折叠表达式和普通参数包展开的区别：
 - 折叠表达式是一个表达式。
