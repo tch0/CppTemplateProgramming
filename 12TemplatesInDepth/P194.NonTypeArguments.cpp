@@ -7,7 +7,7 @@ class C;
 // integer
 C<int, 33>* c1;
 
-// address of variable
+// pointer to variable
 int a;
 C<int*, &a>* c2;
 constexpr int* addressOfA()
@@ -16,7 +16,7 @@ constexpr int* addressOfA()
 }
 C<int*, addressOfA()>* c3;
 
-// address of function
+// pointer to function
 void f();
 void f(int);
 C<void(*)(int), f>* c4;
@@ -28,7 +28,7 @@ struct X
     constexpr operator int() const { return 42; }
 };
 
-// reference of variable
+// reference to variable
 C<bool&, X::b>* c5;
 
 // data member pointer
