@@ -17,6 +17,7 @@
 
 第二部分：深入模板
 - [第十二章：深入模板基础](12TemplatesInDepth)
+- [第十三章：模板中的名称](13NamesInTemplates)
 
 附录：
 - 附录A：一个定义原则。
@@ -118,3 +119,9 @@
   - [可变参数模板](12TemplatesInDepth#%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E6%A8%A1%E6%9D%BF)
   - [友元](12TemplatesInDepth#%E5%8F%8B%E5%85%83)
   - [后记](12TemplatesInDepth#%E5%90%8E%E8%AE%B0)
+- [第十三章：模板中的名称](13NamesInTemplates#%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0%E6%A8%A1%E6%9D%BF%E4%B8%AD%E7%9A%84%E5%90%8D%E7%A7%B0)
+  - [名称分类](13NamesInTemplates#%E5%90%8D%E7%A7%B0%E5%88%86%E7%B1%BB)
+  - [名称查找](13NamesInTemplates#%E5%90%8D%E7%A7%B0%E6%9F%A5%E6%89%BE)
+  - [解析模板](13NamesInTemplates#%E8%A7%A3%E6%9E%90%E6%A8%A1%E6%9D%BF)
+  - [继承与类模板](13NamesInTemplates#%E7%BB%A7%E6%89%BF%E4%B8%8E%E7%B1%BB%E6%A8%A1%E6%9D%BF)
+  - [后记](13NamesInTemplates#%E5%90%8E%E8%AE%B0)
