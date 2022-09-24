@@ -18,6 +18,7 @@
 第二部分：深入模板
 - [第十二章：深入模板基础](12TemplatesInDepth)
 - [第十三章：模板中的名称](13NamesInTemplates)
+- [第十四章：实例化](14Instantiation)
 
 附录：
 - 附录A：一个定义原则。
@@ -125,3 +126,12 @@
   - [解析模板](13NamesInTemplates#%E8%A7%A3%E6%9E%90%E6%A8%A1%E6%9D%BF)
   - [继承与类模板](13NamesInTemplates#%E7%BB%A7%E6%89%BF%E4%B8%8E%E7%B1%BB%E6%A8%A1%E6%9D%BF)
   - [后记](13NamesInTemplates#%E5%90%8E%E8%AE%B0)
+- [第十四章：实例化](14Instantiation#%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0%E5%AE%9E%E4%BE%8B%E5%8C%96)
+  - [按需实例化](14Instantiation#%E6%8C%89%E9%9C%80%E5%AE%9E%E4%BE%8B%E5%8C%96)
+  - [延迟实例化](14Instantiation#%E5%BB%B6%E8%BF%9F%E5%AE%9E%E4%BE%8B%E5%8C%96)
+  - [C++实例化模型](#c%E5%AE%9E%E4%BE%8B%E5%8C%96%E6%A8%A1%E5%9E%8B)
+  - [实现方案](14Instantiation#%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%A1%88)
+  - [显式实例化](14Instantiation#%E6%98%BE%E5%BC%8F%E5%AE%9E%E4%BE%8B%E5%8C%96)
+  - [编译期if](14Instantiation#%E7%BC%96%E8%AF%91%E6%9C%9Fif)
+  - [标准库中的实例化](14Instantiation#%E6%A0%87%E5%87%86%E5%BA%93%E4%B8%AD%E7%9A%84%E5%AE%9E%E4%BE%8B%E5%8C%96)
+  - [后记](14Instantiation#%E5%90%8E%E8%AE%B0)
