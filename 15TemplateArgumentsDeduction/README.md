@@ -400,7 +400,7 @@ using AddResB = decltype(addB(X(), X())); // ERROR, deducation of type of t + u 
 - 在使用`decltype(auto)`代替`decltype(expression)`时，后者在即时上下文中，有SFINAE机制，并且只需要替换声明。但前者推导的表达式在函数体中，**不在即时上下文中**，需要实例化整个函数才能得到返回值类型，所以如果实例化失败就会触发**硬错误**。
 - 通常我们会认为`decltype(auto)`仅仅是`decltype(expression)`的一个快捷使用方式，但事实上会有那么一些和SFINAE机制互动上的差别，使用`decltype(auto)`时必须特别注意此类问题。
 
-[**结构化绑定（structured binding）；**](https://zh.cppreference.com/w/cpp/language/structured_binding)
+[**结构化绑定（structured binding）：**](https://zh.cppreference.com/w/cpp/language/structured_binding)
 - 看个例子：
 ```C++
 struct MaybeInt { bool valid; int value; };
@@ -502,7 +502,7 @@ struct X {
     {
         std::cout << "X(const T&)" << std::endl;
     }
-    X(T&&) // *1
+    X(T&&) // *2
     {
         std::cout << "X(T&&)" << std::endl;
     }
