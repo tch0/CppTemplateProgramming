@@ -20,6 +20,7 @@
 - [第十三章：模板中的名称](13NamesInTemplates)
 - [第十四章：实例化](14Instantiation)
 - [第十五章：模板实参推导](15TemplateArgumentsDeduction)
+- [第十六章：特化与重载](16SpecializationAndOverloading)
 
 附录：
 - 附录A：一个定义原则。
@@ -150,3 +151,10 @@
   - [别名模板](15TemplateArgumentsDeduction#%E5%88%AB%E5%90%8D%E6%A8%A1%E6%9D%BF)
   - [类模板实参推导](15TemplateArgumentsDeduction#%E7%B1%BB%E6%A8%A1%E6%9D%BF%E5%AE%9E%E5%8F%82%E6%8E%A8%E5%AF%BC)
   - [后记](15TemplateArgumentsDeduction#%E5%90%8E%E8%AE%B0)
+- [第十六章：特化与重载](16SpecializationAndOverloading#%E7%AC%AC%E5%8D%81%E5%85%AD%E7%AB%A0%E7%89%B9%E5%8C%96%E4%B8%8E%E9%87%8D%E8%BD%BD)
+  - [当泛型代码不能很好解决问题时](16SpecializationAndOverloading#%E5%BD%93%E6%B3%9B%E5%9E%8B%E4%BB%A3%E7%A0%81%E4%B8%8D%E8%83%BD%E5%BE%88%E5%A5%BD%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98%E6%97%B6)
+  - [重载函数模板](16SpecializationAndOverloading#%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0%E6%A8%A1%E6%9D%BF)
+  - [显式特化](16SpecializationAndOverloading#%E6%98%BE%E5%BC%8F%E7%89%B9%E5%8C%96)
+  - [类模板偏特化](16SpecializationAndOverloading#%E7%B1%BB%E6%A8%A1%E6%9D%BF%E5%81%8F%E7%89%B9%E5%8C%96)
+  - [变量模板偏特化](16SpecializationAndOverloading#%E5%8F%98%E9%87%8F%E6%A8%A1%E6%9D%BF%E5%81%8F%E7%89%B9%E5%8C%96)
+  - [后记](16SpecializationAndOverloading#%E5%90%8E%E8%AE%B0)
