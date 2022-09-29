@@ -2,7 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [第十八章：未来发展方向](#%E7%AC%AC%E5%8D%81%E5%85%AB%E7%AB%A0%E6%9C%AA%E6%9D%A5%E5%8F%91%E5%B1%95%E6%96%B9%E5%90%91)
+- [第十七章：未来发展方向](#%E7%AC%AC%E5%8D%81%E4%B8%83%E7%AB%A0%E6%9C%AA%E6%9D%A5%E5%8F%91%E5%B1%95%E6%96%B9%E5%90%91)
   - [宽松的typename规则](#%E5%AE%BD%E6%9D%BE%E7%9A%84typename%E8%A7%84%E5%88%99)
   - [更宽泛的非类型模板参数](#%E6%9B%B4%E5%AE%BD%E6%B3%9B%E7%9A%84%E9%9D%9E%E7%B1%BB%E5%9E%8B%E6%A8%A1%E6%9D%BF%E5%8F%82%E6%95%B0)
   - [函数模板偏特化](#%E5%87%BD%E6%95%B0%E6%A8%A1%E6%9D%BF%E5%81%8F%E7%89%B9%E5%8C%96)
@@ -17,7 +17,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# 第十八章：未来发展方向
+# 第十七章：未来发展方向
 
 模板从1988年引入以来，经过了1988，2011，2014，2017几个里程碑，可以说自C++98标准后模板一直都是新特性中比较主要的那一部分。在C++98之后，下列是比较重要的模板相关特性：
 - 角括号hack：C++11已经移除模板中两个`>`中间必须有空格的限制。

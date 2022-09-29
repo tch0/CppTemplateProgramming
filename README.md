@@ -21,7 +21,7 @@
 - [第十四章：实例化](14Instantiation)
 - [第十五章：模板实参推导](15TemplateArgumentsDeduction)
 - [第十六章：特化与重载](16SpecializationAndOverloading)
-- [第十八章：未来发展方向](17FutureDirections)
+- [第十七章：未来发展方向](17FutureDirections)
 
 附录：
 - 附录A：一个定义原则。
@@ -159,7 +159,7 @@
   - [类模板偏特化](16SpecializationAndOverloading#%E7%B1%BB%E6%A8%A1%E6%9D%BF%E5%81%8F%E7%89%B9%E5%8C%96)
   - [变量模板偏特化](16SpecializationAndOverloading#%E5%8F%98%E9%87%8F%E6%A8%A1%E6%9D%BF%E5%81%8F%E7%89%B9%E5%8C%96)
   - [后记](16SpecializationAndOverloading#%E5%90%8E%E8%AE%B0)
-- [第十八章：未来发展方向](17FutureDirections#%E7%AC%AC%E5%8D%81%E5%85%AB%E7%AB%A0%E6%9C%AA%E6%9D%A5%E5%8F%91%E5%B1%95%E6%96%B9%E5%90%91)
+- [第十七章：未来发展方向](17FutureDirections#%E7%AC%AC%E5%8D%81%E4%B8%83%E7%AB%A0%E6%9C%AA%E6%9D%A5%E5%8F%91%E5%B1%95%E6%96%B9%E5%90%91)
   - [宽松的typename规则](17FutureDirections#%E5%AE%BD%E6%9D%BE%E7%9A%84typename%E8%A7%84%E5%88%99)
   - [更宽泛的非类型模板参数](17FutureDirections#%E6%9B%B4%E5%AE%BD%E6%B3%9B%E7%9A%84%E9%9D%9E%E7%B1%BB%E5%9E%8B%E6%A8%A1%E6%9D%BF%E5%8F%82%E6%95%B0)
   - [函数模板偏特化](17FutureDirections#%E5%87%BD%E6%95%B0%E6%A8%A1%E6%9D%BF%E5%81%8F%E7%89%B9%E5%8C%96)
