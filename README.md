@@ -23,6 +23,9 @@
 - [第十六章：特化与重载](16SpecializationAndOverloading)
 - [第十七章：未来发展方向](17FutureDirections)
 
+第三部分：模板与设计
+- [第十八章：模板的多态性](18PolymorphicOfTemplates)
+
 附录：
 - 附录A：一个定义原则。
 - 附录B：值类别，略。
@@ -171,3 +174,11 @@
   - [反射元编程](17FutureDirections#%E5%8F%8D%E5%B0%84%E5%85%83%E7%BC%96%E7%A8%8B)
   - [参数包设施](17FutureDirections#%E5%8F%82%E6%95%B0%E5%8C%85%E8%AE%BE%E6%96%BD)
   - [模块](17FutureDirections#%E6%A8%A1%E5%9D%97)
+- [第十八章：模板的多态性](18PolymorphicOfTemplates#%E7%AC%AC%E5%8D%81%E5%85%AB%E7%AB%A0%E6%A8%A1%E6%9D%BF%E7%9A%84%E5%A4%9A%E6%80%81%E6%80%A7)
+  - [动态多态](18PolymorphicOfTemplates#%E5%8A%A8%E6%80%81%E5%A4%9A%E6%80%81)
+  - [静态多态](18PolymorphicOfTemplates#%E9%9D%99%E6%80%81%E5%A4%9A%E6%80%81)
+  - [动态与静态多态对比](18PolymorphicOfTemplates#%E5%8A%A8%E6%80%81%E4%B8%8E%E9%9D%99%E6%80%81%E5%A4%9A%E6%80%81%E5%AF%B9%E6%AF%94)
+  - [概念(Concepts)](18PolymorphicOfTemplates#%E6%A6%82%E5%BF%B5concepts)
+  - [设计模式的新形式](18PolymorphicOfTemplates#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9A%84%E6%96%B0%E5%BD%A2%E5%BC%8F)
+  - [泛型编程](18PolymorphicOfTemplates#%E6%B3%9B%E5%9E%8B%E7%BC%96%E7%A8%8B)
+  - [后记](18PolymorphicOfTemplates#%E5%90%8E%E8%AE%B0)
