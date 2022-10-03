@@ -5,6 +5,7 @@
 - [第四章：可变参数模板](#%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E6%A8%A1%E6%9D%BF)
   - [可变参数模板](#%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E6%A8%A1%E6%9D%BF)
   - [折叠表达式](#%E6%8A%98%E5%8F%A0%E8%A1%A8%E8%BE%BE%E5%BC%8F)
+  - [折叠表达式实用技巧](#%E6%8A%98%E5%8F%A0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7)
   - [可变参数模板应用](#%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E6%A8%A1%E6%9D%BF%E5%BA%94%E7%94%A8)
   - [可变类模板参数与可变参数表达式](#%E5%8F%AF%E5%8F%98%E7%B1%BB%E6%A8%A1%E6%9D%BF%E5%8F%82%E6%95%B0%E4%B8%8E%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F)
   - [总结](#%E6%80%BB%E7%BB%93)
@@ -120,6 +121,124 @@ void print(Args... args)
 - 支持的运算符：`+ - * / % ^ & | = < > << >> += -= *= /= %= ^= &= |= <<= >>= == != <= >= && || , .* ->*`。
 - 二元折叠中的两个运算符必须相同。
 - 初值表达式或者其中的参数包表达式如果运算符优先级低于折叠运算符，需要加括号。
+
+## 折叠表达式实用技巧
+
+参考：
+- [【翻译】折叠表达式实用技巧](https://zhuanlan.zhihu.com/p/528897727)
+- 原文：[Nifty Fold Expression Tricks](https://www.foonathan.net/2020/05/fold-tricks/#content)
+
+元素求和：
+```C++
+template<typename H, typename... T>
+auto sum(H head, T... tail)
+{
+    return (head + ... + tail);
+}
+```
+
+对每个元素调用一次函数：
+```C++
+template<typename... Args>
+void applyFor(auto&& f, Args... args)
+{
+    return (..., f(args));
+}
+```
+
+逆序对每个参数调用一次函数（运用了`=`运算符的右结合特性）：
+```C++
+template<typename... Args>
+void applyForReverse(auto&& f, Args... args)
+{
+    int dummy;
+    dummy = ... = (f(ts), 0); // = is right associative
+}
+```
+
+对每个参数调用一次函数直到谓词得到满足：
+```C++
+template<typename... Args>
+void applyForUntil(auto&& f, Args... args)
+{
+    ((pred(ts) ? false : (f(ts), true)) && ...);
+}
+```
+
+检查是否有元素满足谓词：
+```C++
+bool anyOf(auto&& pred, auto&&... args)
+{
+    return (... || pred(args));
+}
+```
+
+检查是否所有元素都满足或者是否没有元素满足谓词：
+```C++
+// checke whether all elements matches predicate
+bool allOf(auto&& pred, auto&&... args)
+{
+    return (... && pred(args));
+}
+// check whether no element matches predicate
+bool noneOf(auto&& pred, auto&&... args)
+{
+    return !(... || pred(args));
+}
+```
+
+计数满足谓词的元素：
+```C++
+std::size_t countIf(auto&& pred, auto&&... args)
+{
+    return (std::size_t(0) + ... + (pred(args) ? 1 : 0));
+}
+```
+
+查找第一个满足谓词的元素：
+```C++
+auto findFirst(auto&& pred, auto&&... args)
+{
+    std::common_type_t<std::decay_t<decltype(args)>...> result{};
+    (... || (pred(args) ? (result = args, true) : false));
+    return result;
+}
+```
+
+得到参数包中第n个元素：
+```C++
+auto nthElement(std::size_t n, auto&&... args)
+{
+    std::common_type_t<std::decay_t<decltype(args)>...> result{};
+    std::size_t i = 0;
+    (... || (i++ == n ? (result = args, true) : false));
+    return result;
+}
+```
+
+得到参数包中第一个、最后一个、最小元素：
+```C++
+// get the first element of parameter pack
+auto firstElement(auto&&... args)
+{
+    std::common_type_t<std::decay_t<decltype(args)>...> result{};
+    (... || (result = args, true));
+    return result;
+}
+// get the last element of parameter pack
+auto lastElement(auto&&... args)
+{
+    return (... , args);
+}
+// get the minimal element
+auto minElement(auto&&... args)
+{
+    auto min = (args, ...); // last element
+    return (... , (args < min ? (min = args, min) : min));
+}
+```
+
+总体来说，都是使用`&& || , ?:`这些确定求值顺序的运算符进行组合，最终将需要在参数包上做的事情表达成一个表达式。
 
 ## 可变参数模板应用
 

@@ -63,6 +63,7 @@
 - [第四章：可变参数模板](04VariadicTemplates#%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E6%A8%A1%E6%9D%BF)
   - [可变参数模板](04VariadicTemplates#%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E6%A8%A1%E6%9D%BF)
   - [折叠表达式](04VariadicTemplates#%E6%8A%98%E5%8F%A0%E8%A1%A8%E8%BE%BE%E5%BC%8F)
+  - [折叠表达式实用技巧](#%E6%8A%98%E5%8F%A0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7)
   - [可变参数模板应用](04VariadicTemplates#%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E6%A8%A1%E6%9D%BF%E5%BA%94%E7%94%A8)
   - [可变类模板参数与可变参数表达式](04VariadicTemplates#%E5%8F%AF%E5%8F%98%E7%B1%BB%E6%A8%A1%E6%9D%BF%E5%8F%82%E6%95%B0%E4%B8%8E%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F)
   - [总结](04VariadicTemplates#%E6%80%BB%E7%BB%93)
