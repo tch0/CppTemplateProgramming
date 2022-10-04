@@ -27,11 +27,11 @@
 - [第十八章：模板的多态性](18PolymorphicOfTemplates)
 
 附录：
-- 附录A：一个定义原则。
-- 附录B：值类别，略。
-- 附录C：重载决议细节。
-- 附录D：标准类型实用程序。
-- 附录E：concepts。
+- 附录A：一个定义原则
+- 附录B：值类别，略
+- 附录C：重载决议细节
+- 附录D：标准类型实用程序
+- [附录E：概念](AppendixE)
 
 细节目录：
 - [第一章 函数模板](01FunctionTemplate#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E5%87%BD%E6%95%B0%E6%A8%A1%E6%9D%BF)
@@ -183,3 +183,26 @@
   - [设计模式的新形式](18PolymorphicOfTemplates#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9A%84%E6%96%B0%E5%BD%A2%E5%BC%8F)
   - [泛型编程](18PolymorphicOfTemplates#%E6%B3%9B%E5%9E%8B%E7%BC%96%E7%A8%8B)
   - [后记](18PolymorphicOfTemplates#%E5%90%8E%E8%AE%B0)
+
+
+- [附录E：概念](AppendixE#%E9%99%84%E5%BD%95e%E6%A6%82%E5%BF%B5)
+  - [附录E内容](AppendixE#%E9%99%84%E5%BD%95e%E5%86%85%E5%AE%B9)
+    - [使用概念](AppendixE#%E4%BD%BF%E7%94%A8%E6%A6%82%E5%BF%B5)
+    - [定义概念](AppendixE#%E5%AE%9A%E4%B9%89%E6%A6%82%E5%BF%B5)
+    - [重载约束](AppendixE#%E9%87%8D%E8%BD%BD%E7%BA%A6%E6%9D%9F)
+    - [概念提示](AppendixE#%E6%A6%82%E5%BF%B5%E6%8F%90%E7%A4%BA)
+  - [C++20的约束与概念](AppendixE#c20%E7%9A%84%E7%BA%A6%E6%9D%9F%E4%B8%8E%E6%A6%82%E5%BF%B5)
+    - [概念](AppendixE#%E6%A6%82%E5%BF%B5)
+    - [约束](AppendixE#%E7%BA%A6%E6%9D%9F)
+    - [合取](AppendixE#%E5%90%88%E5%8F%96)
+    - [析取](AppendixE#%E6%9E%90%E5%8F%96)
+    - [原子约束](AppendixE#%E5%8E%9F%E5%AD%90%E7%BA%A6%E6%9D%9F)
+    - [约束规范化](AppendixE#%E7%BA%A6%E6%9D%9F%E8%A7%84%E8%8C%83%E5%8C%96)
+    - [requires子句](AppendixE#requires%E5%AD%90%E5%8F%A5)
+    - [requires表达式](AppendixE#requires%E8%A1%A8%E8%BE%BE%E5%BC%8F)
+    - [简单要求](AppendixE#%E7%AE%80%E5%8D%95%E8%A6%81%E6%B1%82)
+    - [类型要求](AppendixE#%E7%B1%BB%E5%9E%8B%E8%A6%81%E6%B1%82)
+    - [复合要求](AppendixE#%E5%A4%8D%E5%90%88%E8%A6%81%E6%B1%82)
+    - [嵌套要求](AppendixE#%E5%B5%8C%E5%A5%97%E8%A6%81%E6%B1%82)
+    - [约束的偏序](AppendixE#%E7%BA%A6%E6%9D%9F%E7%9A%84%E5%81%8F%E5%BA%8F)
+  - [总结](AppendixE#%E6%80%BB%E7%BB%93)
