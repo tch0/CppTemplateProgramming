@@ -27,7 +27,7 @@
 - [第十八章：模板的多态性](18PolymorphicOfTemplates)
 
 附录：
-- 附录A：一个定义原则
+- [附录A：一个定义原则](AppendixA)
 - 附录B：值类别，略
 - 附录C：重载决议细节
 - 附录D：标准类型实用程序
@@ -63,7 +63,7 @@
 - [第四章：可变参数模板](04VariadicTemplates#%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E6%A8%A1%E6%9D%BF)
   - [可变参数模板](04VariadicTemplates#%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E6%A8%A1%E6%9D%BF)
   - [折叠表达式](04VariadicTemplates#%E6%8A%98%E5%8F%A0%E8%A1%A8%E8%BE%BE%E5%BC%8F)
-  - [折叠表达式实用技巧](#%E6%8A%98%E5%8F%A0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7)
+  - [折叠表达式实用技巧](04VariadicTemplates#%E6%8A%98%E5%8F%A0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7)
   - [可变参数模板应用](04VariadicTemplates#%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E6%A8%A1%E6%9D%BF%E5%BA%94%E7%94%A8)
   - [可变类模板参数与可变参数表达式](04VariadicTemplates#%E5%8F%AF%E5%8F%98%E7%B1%BB%E6%A8%A1%E6%9D%BF%E5%8F%82%E6%95%B0%E4%B8%8E%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F)
   - [总结](04VariadicTemplates#%E6%80%BB%E7%BB%93)
@@ -184,7 +184,10 @@
   - [泛型编程](18PolymorphicOfTemplates#%E6%B3%9B%E5%9E%8B%E7%BC%96%E7%A8%8B)
   - [后记](18PolymorphicOfTemplates#%E5%90%8E%E8%AE%B0)
 
-
+- [附录A：一个定义原则](AppendixA#%E9%99%84%E5%BD%95a%E4%B8%80%E4%B8%AA%E5%AE%9A%E4%B9%89%E5%8E%9F%E5%88%99)
+  - [翻译单元](AppendixA#%E7%BF%BB%E8%AF%91%E5%8D%95%E5%85%83)
+  - [声明和定义](AppendixA#%E5%A3%B0%E6%98%8E%E5%92%8C%E5%AE%9A%E4%B9%89)
+  - [一个定义原则细节](AppendixA#%E4%B8%80%E4%B8%AA%E5%AE%9A%E4%B9%89%E5%8E%9F%E5%88%99%E7%BB%86%E8%8A%82)
 - [附录E：概念](AppendixE#%E9%99%84%E5%BD%95e%E6%A6%82%E5%BF%B5)
   - [附录E内容](AppendixE#%E9%99%84%E5%BD%95e%E5%86%85%E5%AE%B9)
     - [使用概念](AppendixE#%E4%BD%BF%E7%94%A8%E6%A6%82%E5%BF%B5)
