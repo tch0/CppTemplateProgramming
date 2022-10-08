@@ -25,6 +25,7 @@
 
 第三部分：模板与设计
 - [第十八章：模板的多态性](18PolymorphicOfTemplates)
+- [第十九章：特征的实现](19ImplementingTraits)
 
 附录：
 - [附录A：一个定义原则](AppendixA)
@@ -183,6 +184,18 @@
   - [设计模式的新形式](18PolymorphicOfTemplates#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9A%84%E6%96%B0%E5%BD%A2%E5%BC%8F)
   - [泛型编程](18PolymorphicOfTemplates#%E6%B3%9B%E5%9E%8B%E7%BC%96%E7%A8%8B)
   - [后记](18PolymorphicOfTemplates#%E5%90%8E%E8%AE%B0)
+- [第十九章：特征的实现](19ImplementingTraits#%E7%AC%AC%E5%8D%81%E4%B9%9D%E7%AB%A0%E7%89%B9%E5%BE%81%E7%9A%84%E5%AE%9E%E7%8E%B0)
+  - [例子：累加一个序列](19ImplementingTraits#%E4%BE%8B%E5%AD%90%E7%B4%AF%E5%8A%A0%E4%B8%80%E4%B8%AA%E5%BA%8F%E5%88%97)
+  - [特征与策略、策略类](19ImplementingTraits#%E7%89%B9%E5%BE%81%E4%B8%8E%E7%AD%96%E7%95%A5%E7%AD%96%E7%95%A5%E7%B1%BB)
+  - [类型函数](19ImplementingTraits#%E7%B1%BB%E5%9E%8B%E5%87%BD%E6%95%B0)
+  - [基于SFINAE的特征](19ImplementingTraits#%E5%9F%BA%E4%BA%8Esfinae%E7%9A%84%E7%89%B9%E5%BE%81)
+  - [IsConvertible](#isconvertible)
+  - [检测成员](19ImplementingTraits#%E6%A3%80%E6%B5%8B%E6%88%90%E5%91%98)
+  - [其他特征技术](19ImplementingTraits#%E5%85%B6%E4%BB%96%E7%89%B9%E5%BE%81%E6%8A%80%E6%9C%AF)
+  - [类型分类](19ImplementingTraits#%E7%B1%BB%E5%9E%8B%E5%88%86%E7%B1%BB)
+  - [策略特征](19ImplementingTraits#%E7%AD%96%E7%95%A5%E7%89%B9%E5%BE%81)
+  - [标准库中的特征](19ImplementingTraits#%E6%A0%87%E5%87%86%E5%BA%93%E4%B8%AD%E7%9A%84%E7%89%B9%E5%BE%81)
+  - [后记](19ImplementingTraits#%E5%90%8E%E8%AE%B0)
 
 - [附录A：一个定义原则](AppendixA#%E9%99%84%E5%BD%95a%E4%B8%80%E4%B8%AA%E5%AE%9A%E4%B9%89%E5%8E%9F%E5%88%99)
   - [翻译单元](AppendixA#%E7%BF%BB%E8%AF%91%E5%8D%95%E5%85%83)
