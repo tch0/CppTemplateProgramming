@@ -26,6 +26,7 @@
 第三部分：模板与设计
 - [第十八章：模板的多态性](18PolymorphicOfTemplates)
 - [第十九章：特征的实现](19ImplementingTraits)
+- [第二十章：类型属性上的重载](20OverloadingOnTypeProperties)
 
 附录：
 - [附录A：一个定义原则](AppendixA)
@@ -189,13 +190,21 @@
   - [特征与策略、策略类](19ImplementingTraits#%E7%89%B9%E5%BE%81%E4%B8%8E%E7%AD%96%E7%95%A5%E7%AD%96%E7%95%A5%E7%B1%BB)
   - [类型函数](19ImplementingTraits#%E7%B1%BB%E5%9E%8B%E5%87%BD%E6%95%B0)
   - [基于SFINAE的特征](19ImplementingTraits#%E5%9F%BA%E4%BA%8Esfinae%E7%9A%84%E7%89%B9%E5%BE%81)
-  - [IsConvertible](#isconvertible)
+  - [IsConvertible](19ImplementingTraits#isconvertible)
   - [检测成员](19ImplementingTraits#%E6%A3%80%E6%B5%8B%E6%88%90%E5%91%98)
   - [其他特征技术](19ImplementingTraits#%E5%85%B6%E4%BB%96%E7%89%B9%E5%BE%81%E6%8A%80%E6%9C%AF)
   - [类型分类](19ImplementingTraits#%E7%B1%BB%E5%9E%8B%E5%88%86%E7%B1%BB)
   - [策略特征](19ImplementingTraits#%E7%AD%96%E7%95%A5%E7%89%B9%E5%BE%81)
   - [标准库中的特征](19ImplementingTraits#%E6%A0%87%E5%87%86%E5%BA%93%E4%B8%AD%E7%9A%84%E7%89%B9%E5%BE%81)
   - [后记](19ImplementingTraits#%E5%90%8E%E8%AE%B0)
+- [第二十章：类型属性上的重载](20OverloadingOnTypeProperties#%E7%AC%AC%E4%BA%8C%E5%8D%81%E7%AB%A0%E7%B1%BB%E5%9E%8B%E5%B1%9E%E6%80%A7%E4%B8%8A%E7%9A%84%E9%87%8D%E8%BD%BD)
+  - [算法特化](20OverloadingOnTypeProperties#%E7%AE%97%E6%B3%95%E7%89%B9%E5%8C%96)
+  - [标签分发](20OverloadingOnTypeProperties#%E6%A0%87%E7%AD%BE%E5%88%86%E5%8F%91)
+  - [启用与禁用模板](20OverloadingOnTypeProperties#%E5%90%AF%E7%94%A8%E4%B8%8E%E7%A6%81%E7%94%A8%E6%A8%A1%E6%9D%BF)
+  - [类模板特化](20OverloadingOnTypeProperties#%E7%B1%BB%E6%A8%A1%E6%9D%BF%E7%89%B9%E5%8C%96)
+  - [实例化安全的模板](20OverloadingOnTypeProperties#%E5%AE%9E%E4%BE%8B%E5%8C%96%E5%AE%89%E5%85%A8%E7%9A%84%E6%A8%A1%E6%9D%BF)
+  - [标准库中的实践](20OverloadingOnTypeProperties#%E6%A0%87%E5%87%86%E5%BA%93%E4%B8%AD%E7%9A%84%E5%AE%9E%E8%B7%B5)
+  - [后记](20OverloadingOnTypeProperties#%E5%90%8E%E8%AE%B0)
 
 - [附录A：一个定义原则](AppendixA#%E9%99%84%E5%BD%95a%E4%B8%80%E4%B8%AA%E5%AE%9A%E4%B9%89%E5%8E%9F%E5%88%99)
   - [翻译单元](AppendixA#%E7%BF%BB%E8%AF%91%E5%8D%95%E5%85%83)
