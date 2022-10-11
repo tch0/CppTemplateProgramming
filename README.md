@@ -28,6 +28,7 @@
 - [第十九章：特征的实现](19ImplementingTraits)
 - [第二十章：类型属性上的重载](20OverloadingOnTypeProperties)
 - [第二十一章：模板与继承](21TemplatesAndInheritance)
+- [第二十二章：桥接静态和动态多态](22BridgingStaticAndDynamicPolymorphism)
 
 附录：
 - [附录A：一个定义原则](AppendixA)
@@ -212,6 +213,14 @@
   - [混入（Mixin）](21TemplatesAndInheritance#%E6%B7%B7%E5%85%A5mixin)
   - [命名模板实参](21TemplatesAndInheritance#%E5%91%BD%E5%90%8D%E6%A8%A1%E6%9D%BF%E5%AE%9E%E5%8F%82)
   - [后记](21TemplatesAndInheritance#%E5%90%8E%E8%AE%B0)
+- [第二十二章：桥接静态和动态多态](22BridgingStaticAndDynamicPolymorphism#%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%8C%E7%AB%A0%E6%A1%A5%E6%8E%A5%E9%9D%99%E6%80%81%E5%92%8C%E5%8A%A8%E6%80%81%E5%A4%9A%E6%80%81)
+  - [函数对象、函数指针和std::function<>](22BridgingStaticAndDynamicPolymorphism#%E5%87%BD%E6%95%B0%E5%AF%B9%E8%B1%A1%E5%87%BD%E6%95%B0%E6%8C%87%E9%92%88%E5%92%8Cstdfunction)
+  - [广义函数指针](22BridgingStaticAndDynamicPolymorphism#%E5%B9%BF%E4%B9%89%E5%87%BD%E6%95%B0%E6%8C%87%E9%92%88)
+  - [桥接接口（bridge interface）](22BridgingStaticAndDynamicPolymorphism#%E6%A1%A5%E6%8E%A5%E6%8E%A5%E5%8F%A3bridge-interface)
+  - [类型擦除（type erasure）](22BridgingStaticAndDynamicPolymorphism#%E7%B1%BB%E5%9E%8B%E6%93%A6%E9%99%A4type-erasure)
+  - [可选桥接（optional bridging）](22BridgingStaticAndDynamicPolymorphism#%E5%8F%AF%E9%80%89%E6%A1%A5%E6%8E%A5optional-bridging)
+  - [性能考虑](22BridgingStaticAndDynamicPolymorphism#%E6%80%A7%E8%83%BD%E8%80%83%E8%99%91)
+  - [后记](22BridgingStaticAndDynamicPolymorphism#%E5%90%8E%E8%AE%B0)
 
 - [附录A：一个定义原则](AppendixA#%E9%99%84%E5%BD%95a%E4%B8%80%E4%B8%AA%E5%AE%9A%E4%B9%89%E5%8E%9F%E5%88%99)
   - [翻译单元](AppendixA#%E7%BF%BB%E8%AF%91%E5%8D%95%E5%85%83)
