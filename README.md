@@ -27,6 +27,7 @@
 - [第十八章：模板的多态性](18PolymorphicOfTemplates)
 - [第十九章：特征的实现](19ImplementingTraits)
 - [第二十章：类型属性上的重载](20OverloadingOnTypeProperties)
+- [第二十一章：模板与继承](21TemplatesAndInheritance)
 
 附录：
 - [附录A：一个定义原则](AppendixA)
@@ -205,6 +206,12 @@
   - [实例化安全的模板](20OverloadingOnTypeProperties#%E5%AE%9E%E4%BE%8B%E5%8C%96%E5%AE%89%E5%85%A8%E7%9A%84%E6%A8%A1%E6%9D%BF)
   - [标准库中的实践](20OverloadingOnTypeProperties#%E6%A0%87%E5%87%86%E5%BA%93%E4%B8%AD%E7%9A%84%E5%AE%9E%E8%B7%B5)
   - [后记](20OverloadingOnTypeProperties#%E5%90%8E%E8%AE%B0)
+- [第二十一章：模板与继承](21TemplatesAndInheritance#%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E7%AB%A0%E6%A8%A1%E6%9D%BF%E4%B8%8E%E7%BB%A7%E6%89%BF)
+  - [空基类优化（EBCO）](21TemplatesAndInheritance#%E7%A9%BA%E5%9F%BA%E7%B1%BB%E4%BC%98%E5%8C%96ebco)
+  - [奇异模板递归（CRTP）](21TemplatesAndInheritance#%E5%A5%87%E5%BC%82%E6%A8%A1%E6%9D%BF%E9%80%92%E5%BD%92crtp)
+  - [混入（Mixin）](21TemplatesAndInheritance#%E6%B7%B7%E5%85%A5mixin)
+  - [命名模板实参](21TemplatesAndInheritance#%E5%91%BD%E5%90%8D%E6%A8%A1%E6%9D%BF%E5%AE%9E%E5%8F%82)
+  - [后记](21TemplatesAndInheritance#%E5%90%8E%E8%AE%B0)
 
 - [附录A：一个定义原则](AppendixA#%E9%99%84%E5%BD%95a%E4%B8%80%E4%B8%AA%E5%AE%9A%E4%B9%89%E5%8E%9F%E5%88%99)
   - [翻译单元](AppendixA#%E7%BF%BB%E8%AF%91%E5%8D%95%E5%85%83)
