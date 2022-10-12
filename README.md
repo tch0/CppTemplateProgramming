@@ -30,6 +30,7 @@
 - [第二十一章：模板与继承](21TemplatesAndInheritance)
 - [第二十二章：桥接静态和动态多态](22BridgingStaticAndDynamicPolymorphism)
 - [第二十三章：元编程](23Metaprogramming)
+- [第二十四章：Typelists](24Typelists)
 
 附录：
 - [附录A：一个定义原则](AppendixA)
@@ -230,6 +231,13 @@
   - [递归实例化和递归模板参数](23Metaprogramming#%E9%80%92%E5%BD%92%E5%AE%9E%E4%BE%8B%E5%8C%96%E5%92%8C%E9%80%92%E5%BD%92%E6%A8%A1%E6%9D%BF%E5%8F%82%E6%95%B0)
   - [枚举值与静态常量](23Metaprogramming#%E6%9E%9A%E4%B8%BE%E5%80%BC%E4%B8%8E%E9%9D%99%E6%80%81%E5%B8%B8%E9%87%8F)
   - [后记](23Metaprogramming#%E5%90%8E%E8%AE%B0)
+- [第二十四章：Typelists](24Typelists#%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%9B%9B%E7%AB%A0typelists)
+  - [解析Typelist](24Typelists#%E8%A7%A3%E6%9E%90typelist)
+  - [Typelist算法](24Typelists#typelist%E7%AE%97%E6%B3%95)
+  - [非类型Typelist](24Typelists#%E9%9D%9E%E7%B1%BB%E5%9E%8Btypelist)
+  - [使用包扩展优化算法](24Typelists#%E4%BD%BF%E7%94%A8%E5%8C%85%E6%89%A9%E5%B1%95%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95)
+  - [Cons风格的Typelist](24Typelists#cons%E9%A3%8E%E6%A0%BC%E7%9A%84typelist)
+  - [后记](24Typelists#%E5%90%8E%E8%AE%B0)
 
 - [附录A：一个定义原则](AppendixA#%E9%99%84%E5%BD%95a%E4%B8%80%E4%B8%AA%E5%AE%9A%E4%B9%89%E5%8E%9F%E5%88%99)
   - [翻译单元](AppendixA#%E7%BF%BB%E8%AF%91%E5%8D%95%E5%85%83)
