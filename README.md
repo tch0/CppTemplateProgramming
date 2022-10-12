@@ -29,6 +29,7 @@
 - [第二十章：类型属性上的重载](20OverloadingOnTypeProperties)
 - [第二十一章：模板与继承](21TemplatesAndInheritance)
 - [第二十二章：桥接静态和动态多态](22BridgingStaticAndDynamicPolymorphism)
+- [第二十三章：元编程](23Metaprogramming)
 
 附录：
 - [附录A：一个定义原则](AppendixA)
@@ -221,6 +222,14 @@
   - [可选桥接（optional bridging）](22BridgingStaticAndDynamicPolymorphism#%E5%8F%AF%E9%80%89%E6%A1%A5%E6%8E%A5optional-bridging)
   - [性能考虑](22BridgingStaticAndDynamicPolymorphism#%E6%80%A7%E8%83%BD%E8%80%83%E8%99%91)
   - [后记](22BridgingStaticAndDynamicPolymorphism#%E5%90%8E%E8%AE%B0)
+- [第二十三章：元编程](23Metaprogramming#%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%89%E7%AB%A0%E5%85%83%E7%BC%96%E7%A8%8B)
+  - [现代C++元编程的发展状态](23Metaprogramming#%E7%8E%B0%E4%BB%A3c%E5%85%83%E7%BC%96%E7%A8%8B%E7%9A%84%E5%8F%91%E5%B1%95%E7%8A%B6%E6%80%81)
+  - [反射元编程的维度](23Metaprogramming#%E5%8F%8D%E5%B0%84%E5%85%83%E7%BC%96%E7%A8%8B%E7%9A%84%E7%BB%B4%E5%BA%A6)
+  - [模板递归实例化的代价](23Metaprogramming#%E6%A8%A1%E6%9D%BF%E9%80%92%E5%BD%92%E5%AE%9E%E4%BE%8B%E5%8C%96%E7%9A%84%E4%BB%A3%E4%BB%B7)
+  - [计算完整性](23Metaprogramming#%E8%AE%A1%E7%AE%97%E5%AE%8C%E6%95%B4%E6%80%A7)
+  - [递归实例化和递归模板参数](23Metaprogramming#%E9%80%92%E5%BD%92%E5%AE%9E%E4%BE%8B%E5%8C%96%E5%92%8C%E9%80%92%E5%BD%92%E6%A8%A1%E6%9D%BF%E5%8F%82%E6%95%B0)
+  - [枚举值与静态常量](23Metaprogramming#%E6%9E%9A%E4%B8%BE%E5%80%BC%E4%B8%8E%E9%9D%99%E6%80%81%E5%B8%B8%E9%87%8F)
+  - [后记](23Metaprogramming#%E5%90%8E%E8%AE%B0)
 
 - [附录A：一个定义原则](AppendixA#%E9%99%84%E5%BD%95a%E4%B8%80%E4%B8%AA%E5%AE%9A%E4%B9%89%E5%8E%9F%E5%88%99)
   - [翻译单元](AppendixA#%E7%BF%BB%E8%AF%91%E5%8D%95%E5%85%83)
