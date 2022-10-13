@@ -31,6 +31,7 @@
 - [第二十二章：桥接静态和动态多态](22BridgingStaticAndDynamicPolymorphism)
 - [第二十三章：元编程](23Metaprogramming)
 - [第二十四章：Typelists](24Typelists)
+- [第二十五章：元组](25Tuples)
 
 附录：
 - [附录A：一个定义原则](AppendixA)
@@ -238,6 +239,14 @@
   - [使用包扩展优化算法](24Typelists#%E4%BD%BF%E7%94%A8%E5%8C%85%E6%89%A9%E5%B1%95%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95)
   - [Cons风格的Typelist](24Typelists#cons%E9%A3%8E%E6%A0%BC%E7%9A%84typelist)
   - [后记](24Typelists#%E5%90%8E%E8%AE%B0)
+- [第二十五章：元组](25Tuples#%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%94%E7%AB%A0%E5%85%83%E7%BB%84)
+  - [基本元组设计](25Tuples#%E5%9F%BA%E6%9C%AC%E5%85%83%E7%BB%84%E8%AE%BE%E8%AE%A1)
+  - [基本元组操作](25Tuples#%E5%9F%BA%E6%9C%AC%E5%85%83%E7%BB%84%E6%93%8D%E4%BD%9C)
+  - [元组算法](25Tuples#%E5%85%83%E7%BB%84%E7%AE%97%E6%B3%95)
+  - [展开元组](25Tuples#%E5%B1%95%E5%BC%80%E5%85%83%E7%BB%84)
+  - [优化元组](25Tuples#%E4%BC%98%E5%8C%96%E5%85%83%E7%BB%84)
+  - [元组下标](25Tuples#%E5%85%83%E7%BB%84%E4%B8%8B%E6%A0%87)
+  - [后记](25Tuples#%E5%90%8E%E8%AE%B0)
 
 - [附录A：一个定义原则](AppendixA#%E9%99%84%E5%BD%95a%E4%B8%80%E4%B8%AA%E5%AE%9A%E4%B9%89%E5%8E%9F%E5%88%99)
   - [翻译单元](AppendixA#%E7%BF%BB%E8%AF%91%E5%8D%95%E5%85%83)
