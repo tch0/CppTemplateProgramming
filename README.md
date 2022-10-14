@@ -32,6 +32,7 @@
 - [第二十三章：元编程](23Metaprogramming)
 - [第二十四章：Typelists](24Typelists)
 - [第二十五章：元组](25Tuples)
+- [第二十六章：可识别的联合](26DiscriminatedUnions)
 
 附录：
 - [附录A：一个定义原则](AppendixA)
@@ -247,6 +248,14 @@
   - [优化元组](25Tuples#%E4%BC%98%E5%8C%96%E5%85%83%E7%BB%84)
   - [元组下标](25Tuples#%E5%85%83%E7%BB%84%E4%B8%8B%E6%A0%87)
   - [后记](25Tuples#%E5%90%8E%E8%AE%B0)
+- [第二十六章：可识别的联合](26DiscriminatedUnions#%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AD%E7%AB%A0%E5%8F%AF%E8%AF%86%E5%88%AB%E7%9A%84%E8%81%94%E5%90%88)
+  - [存储](26DiscriminatedUnions#%E5%AD%98%E5%82%A8)
+  - [设计](26DiscriminatedUnions#%E8%AE%BE%E8%AE%A1)
+  - [值查询与提取](26DiscriminatedUnions#%E5%80%BC%E6%9F%A5%E8%AF%A2%E4%B8%8E%E6%8F%90%E5%8F%96)
+  - [元素初始化、赋值和销毁](26DiscriminatedUnions#%E5%85%83%E7%B4%A0%E5%88%9D%E5%A7%8B%E5%8C%96%E8%B5%8B%E5%80%BC%E5%92%8C%E9%94%80%E6%AF%81)
+  - [访问](26DiscriminatedUnions#%E8%AE%BF%E9%97%AE)
+  - [Variant初始化与赋值](26DiscriminatedUnions#variant%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%8E%E8%B5%8B%E5%80%BC)
+  - [后记](26DiscriminatedUnions#%E5%90%8E%E8%AE%B0)
 
 - [附录A：一个定义原则](AppendixA#%E9%99%84%E5%BD%95a%E4%B8%80%E4%B8%AA%E5%AE%9A%E4%B9%89%E5%8E%9F%E5%88%99)
   - [翻译单元](AppendixA#%E7%BF%BB%E8%AF%91%E5%8D%95%E5%85%83)
