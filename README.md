@@ -33,6 +33,7 @@
 - [第二十四章：Typelists](24Typelists)
 - [第二十五章：元组](25Tuples)
 - [第二十六章：可识别的联合](26DiscriminatedUnions)
+- [第二十七章：表达式模板](27ExpressionTemplates)
 
 附录：
 - [附录A：一个定义原则](AppendixA)
@@ -256,6 +257,11 @@
   - [访问](26DiscriminatedUnions#%E8%AE%BF%E9%97%AE)
   - [Variant初始化与赋值](26DiscriminatedUnions#variant%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%8E%E8%B5%8B%E5%80%BC)
   - [后记](26DiscriminatedUnions#%E5%90%8E%E8%AE%B0)
+- [第二十七章：表达式模板](27ExpressionTemplates#%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%83%E7%AB%A0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%A8%A1%E6%9D%BF)
+  - [临时变量与分割循环](27ExpressionTemplates#%E4%B8%B4%E6%97%B6%E5%8F%98%E9%87%8F%E4%B8%8E%E5%88%86%E5%89%B2%E5%BE%AA%E7%8E%AF)
+  - [在模板参数中编码表达式](27ExpressionTemplates#%E5%9C%A8%E6%A8%A1%E6%9D%BF%E5%8F%82%E6%95%B0%E4%B8%AD%E7%BC%96%E7%A0%81%E8%A1%A8%E8%BE%BE%E5%BC%8F)
+  - [表达式模板的性能与约束](27ExpressionTemplates#%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%A8%A1%E6%9D%BF%E7%9A%84%E6%80%A7%E8%83%BD%E4%B8%8E%E7%BA%A6%E6%9D%9F)
+  - [后记](27ExpressionTemplates#%E5%90%8E%E8%AE%B0)
 
 - [附录A：一个定义原则](AppendixA#%E9%99%84%E5%BD%95a%E4%B8%80%E4%B8%AA%E5%AE%9A%E4%B9%89%E5%8E%9F%E5%88%99)
   - [翻译单元](AppendixA#%E7%BF%BB%E8%AF%91%E5%8D%95%E5%85%83)
