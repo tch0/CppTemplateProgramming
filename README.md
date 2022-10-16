@@ -34,6 +34,7 @@
 - [第二十五章：元组](25Tuples)
 - [第二十六章：可识别的联合](26DiscriminatedUnions)
 - [第二十七章：表达式模板](27ExpressionTemplates)
+- [第二十八章：调试模板](28DebuggingTemplates)
 
 附录：
 - [附录A：一个定义原则](AppendixA)
@@ -262,6 +263,13 @@
   - [在模板参数中编码表达式](27ExpressionTemplates#%E5%9C%A8%E6%A8%A1%E6%9D%BF%E5%8F%82%E6%95%B0%E4%B8%AD%E7%BC%96%E7%A0%81%E8%A1%A8%E8%BE%BE%E5%BC%8F)
   - [表达式模板的性能与约束](27ExpressionTemplates#%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%A8%A1%E6%9D%BF%E7%9A%84%E6%80%A7%E8%83%BD%E4%B8%8E%E7%BA%A6%E6%9D%9F)
   - [后记](27ExpressionTemplates#%E5%90%8E%E8%AE%B0)
+- [第二十八章：调试模板](28DebuggingTemplates#%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AB%E7%AB%A0%E8%B0%83%E8%AF%95%E6%A8%A1%E6%9D%BF)
+  - [浅式实例化](28DebuggingTemplates#%E6%B5%85%E5%BC%8F%E5%AE%9E%E4%BE%8B%E5%8C%96)
+  - [静态断言](28DebuggingTemplates#%E9%9D%99%E6%80%81%E6%96%AD%E8%A8%80)
+  - [原型](28DebuggingTemplates#%E5%8E%9F%E5%9E%8B)
+  - [跟踪程序](28DebuggingTemplates#%E8%B7%9F%E8%B8%AA%E7%A8%8B%E5%BA%8F)
+  - [Oracles](28DebuggingTemplates#oracles)
+  - [后记](28DebuggingTemplates#%E5%90%8E%E8%AE%B0)
 
 - [附录A：一个定义原则](AppendixA#%E9%99%84%E5%BD%95a%E4%B8%80%E4%B8%AA%E5%AE%9A%E4%B9%89%E5%8E%9F%E5%88%99)
   - [翻译单元](AppendixA#%E7%BF%BB%E8%AF%91%E5%8D%95%E5%85%83)
